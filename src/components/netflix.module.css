@@ -1,0 +1,19 @@
+.card-image {
+  width: 100%;
+}
+.cards {
+  box-shadow: 0px 1px 24px 1px rgba(0, 0, 0, 0.297);
+  background-color: white;
+}
+.average-rating {
+  background-color: yellow;
+  color: black; 
+}
+.top-rating {
+  background-color: brown;
+  color: white;
+}
+.series-rating {
+  padding: 0.1rem 0.8rem;
+  border-radius: 5rem;
+}

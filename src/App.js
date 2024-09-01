@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import NetflixHeader from "./components/netflixHeader";
+import NetflixSeries from "./components/netflixSeries";
+import SeriesFooter from "./components/seriesFooter";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NetflixHeader />
+      <div className="parent bg-gradient-to-r  from-red-200 to-yellow-400">
+      <div className="container">
+        <NetflixSeries />
+      </div>
+      </div>
+      <div>
+        <SeriesFooter />
+      </div>
+    </>
   );
 }
 
